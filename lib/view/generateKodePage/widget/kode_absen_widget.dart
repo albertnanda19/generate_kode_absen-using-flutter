@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:generate_kode_absen/controller/kode_absen_controller.dart';
 
 import '../../../main.dart';
+import '../generate_kode_page.dart';
 
 class KodeAbsenWidget extends StatelessWidget {
-  final KodeAbsen kodeAbsen;
+  final KodeAbsenController kodeAbsen;
 
   KodeAbsenWidget({required this.kodeAbsen});
 

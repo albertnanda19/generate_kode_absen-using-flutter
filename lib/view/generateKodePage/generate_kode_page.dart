@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:generate_kode_absen/controller/kode_absen_controller.dart';
 import 'package:generate_kode_absen/view/generateKodePage/widget/kode_absen_widget.dart';
 
 class GenerateKodePage extends StatefulWidget {
@@ -10,7 +11,7 @@ class GenerateKodePage extends StatefulWidget {
 }
 
 class _AbsenPageState extends State<GenerateKodePage> {
-  final KodeAbsen _kodeAbsenstate = KodeAbsen();
+  final _kodeAbsenstate = KodeAbsenController();
 
   void generateKodeBaru() {
     setState(() {
@@ -78,6 +79,3 @@ class _AbsenPageState extends State<GenerateKodePage> {
   }
 }
 
-class KodeAbsen {
-  void generateKodeBaru() {}
-}
