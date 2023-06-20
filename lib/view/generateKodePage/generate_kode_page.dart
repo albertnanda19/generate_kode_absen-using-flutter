@@ -38,8 +38,8 @@ class _AbsenPageState extends State<GenerateKodePage> {
         ),
         body: Center(
           child: Container(
-            width: 200,
-            height: 200,
+            width: 300,
+            height: 300,
             decoration: BoxDecoration(
               color: const Color(0xFF0f1482),
               borderRadius: BorderRadius.circular(10),
@@ -51,14 +51,14 @@ class _AbsenPageState extends State<GenerateKodePage> {
                   'Kode Absen:',
                   style: TextStyle(
                     fontSize: 24,
-                    fontWeight: FontWeight.bold,
+                    // fontWeight: FontWeight.bold,
                     fontFamily: 'Poppins',
                     color: Colors.white,
                   ),
                 ),
-                const SizedBox(height: 8),
-                KodeAbsenWidget(kodeAbsen: _kodeAbsenstate),
                 const SizedBox(height: 16),
+                KodeAbsenWidget(kodeAbsen: _kodeAbsenstate),
+                const SizedBox(height: 24),
                 ElevatedButton(
                   onPressed: generateKodeBaru,
                   style: ElevatedButton.styleFrom(

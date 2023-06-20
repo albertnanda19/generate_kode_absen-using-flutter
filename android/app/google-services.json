@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307038047132",
+    "project_id": "generate-kode-absen-feb8a",
+    "storage_bucket": "generate-kode-absen-feb8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307038047132:android:636d176b1eb1a43d279659",
+        "android_client_info": {
+          "package_name": "com.example.generate_kode_absen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307038047132-bujp1vfevul2ounscb4kqr8sbc6faamk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZEyYQlbzdhw-TkpneZOH5CgF6IwhwWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307038047132-bujp1vfevul2ounscb4kqr8sbc6faamk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

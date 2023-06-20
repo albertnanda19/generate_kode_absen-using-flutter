@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831457968506",
+    "project_id": "generate-kode-absen",
+    "storage_bucket": "generate-kode-absen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831457968506:android:e7bbe7d5951a39efa156c3",
+        "android_client_info": {
+          "package_name": "com.example.generate_kode_absen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831457968506-6ol2pf6cmsmhku4g19hmg7gld3rr2p7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2P_TOssP3jgNODJupFI479BwpQ7qJlvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831457968506-6ol2pf6cmsmhku4g19hmg7gld3rr2p7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
